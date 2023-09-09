@@ -1,2 +1,2 @@
 # EcommerceWebApp
-Python, Django, JavaScript, React and Postgres
+Python, Django, JavaScript, React and Postgresql
