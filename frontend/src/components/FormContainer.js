@@ -9,7 +9,6 @@ function FormContainer({children}) {
                 {children}
             </Col>
         </Row>
-      
     </Container>
   )
 }
