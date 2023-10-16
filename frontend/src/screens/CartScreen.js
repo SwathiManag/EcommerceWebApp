@@ -38,7 +38,7 @@ function CartScreen() {
         <h1>Shopping Cart</h1>
         {cartItems.length === 0 ? (
           <Message variant='info'>
-            Your cart is empty <Link to='/' style={{ textDecoration: 'none'}}>Go Back</Link>
+            Your cart is empty <Link to='/' className='btn btn-light my-3' style={{color:'black'}}>Go Back</Link>
           </Message>) 
           : (
             <ListGroup variant='flush'>
