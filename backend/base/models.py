@@ -6,7 +6,7 @@ class Product(models.Model):
     _id = models.AutoField(primary_key=True, editable=False)
     user = models.ForeignKey(User, on_delete=models.SET_NULL, null=True)
     name = models.CharField(max_length=200, null=True, blank=True)
-    image = models.ImageField(upload_to='static/images', null=True, blank=True)
+    image = models.ImageField(upload_to='static/images', null=True, blank=True, default='static/images/sample.jpg')
     brand = models.CharField(max_length=200, null=True, blank=True)
     category = models.CharField(max_length=200, null=True, blank=True)
     description = models.TextField(null=True, blank=True)
